@@ -1,4 +1,4 @@
-package cn.meow.list.IntersectionOfTwo;
+package cn.meow.list.intersectionOfTwo;
 
 public class IntersectionOfTwo2 {
     /**

@@ -1,4 +1,4 @@
-package cn.meow.list.IntersectionOfTwo;
+package cn.meow.list.intersectionOfTwo;
 
 /**
  * 理解错了,leetcode的问题不是比数值, 比的是地址
