@@ -1,5 +1,7 @@
 package cn.meow.list.intersectionOfTwo;
 
+import cn.meow.list.bean.ListNode;
+
 public class IntersectionOfTwo2 {
     /**
      * 暴力
@@ -23,11 +25,11 @@ public class IntersectionOfTwo2 {
     //方法二: 哈希表  装进HashSet, 使用contains找
 
     /**
-     *  方法三: 双指针
-     *  a + 相交 + b = b + 相交 + a
-     *  起点虽然不一样, 但路程一样, 终点一样, 速度一样, 必定同时到达
-     *
-     *  没有交点的情况下都等于null, 相等退出
+     * 方法三: 双指针
+     * a + 相交 + b = b + 相交 + a
+     * 起点虽然不一样, 但路程一样, 终点一样, 速度一样, 必定同时到达
+     * <p>
+     * 没有交点的情况下都等于null, 相等退出
      */
     public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
         ListNode l1 = headA, l2 = headB;

@@ -1,5 +1,7 @@
 package cn.meow.list.reverse;
 
+import cn.meow.list.bean.ListNode;
+
 public class Reverse2 {
 
     /**

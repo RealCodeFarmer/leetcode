@@ -1,5 +1,7 @@
 package cn.meow.list.swapNodesInPairs;
 
+import cn.meow.list.bean.ListNode;
+
 public class SwapNodesInPairs {
 
     /**

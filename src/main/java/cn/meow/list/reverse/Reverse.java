@@ -1,8 +1,10 @@
 package cn.meow.list.reverse;
 
+import cn.meow.list.bean.ListNode;
+
 public class Reverse {
 
-    public ListNode reverseList(ListNode head) {
+    public static ListNode reverseList(ListNode head) {
         ListNode result = null;
         //遍历链表
         while (head != null) {

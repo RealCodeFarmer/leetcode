@@ -1,5 +1,7 @@
 package cn.meow.list.removeDuplicatesFromSortedList;
 
+import cn.meow.list.bean.ListNode;
+
 public class RemoveDuplicatesFromSortedList {
 
     public ListNode deleteDuplicates(ListNode head) {

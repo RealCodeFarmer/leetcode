@@ -1,5 +1,7 @@
 package cn.meow.list.mergeTwoSortedLists;
 
+import cn.meow.list.bean.ListNode;
+
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {

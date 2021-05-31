@@ -1,5 +1,7 @@
 package cn.meow.list.removeNthNodeFromEndOfList;
 
+import cn.meow.list.bean.ListNode;
+
 public class RemoveNthNodeFromEndOfList2 {
 
     /**
