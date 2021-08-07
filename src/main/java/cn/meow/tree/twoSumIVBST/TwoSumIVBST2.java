@@ -40,7 +40,7 @@ public class TwoSumIVBST2 {
         queue.add(root);
         while (!queue.isEmpty()) {
             if (queue.peek() != null) {
-                TreeNode node = queue.remove();
+                TreeNode node = queue.poll();
                 if (set.contains(k - node.val)) {
                     return true;
                 }
