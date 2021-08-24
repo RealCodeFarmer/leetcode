@@ -1,6 +1,7 @@
 package cn.meow.hash.containsDuplicate;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class ContainsDuplicate {
 
@@ -8,7 +9,7 @@ public class ContainsDuplicate {
         if (nums == null || nums.length == 0) {
             return false;
         }
-        HashMap<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
             if (map.containsKey(num)) {
                 return true;
