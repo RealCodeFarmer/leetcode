@@ -1,8 +1,6 @@
 package cn.meow.tree.preorderTraversal;
 
 import cn.meow.tree.been.TreeNode;
-import com.sun.deploy.util.ArrayUtil;
-
 import java.util.*;
 
 public class PreorderTraversal {

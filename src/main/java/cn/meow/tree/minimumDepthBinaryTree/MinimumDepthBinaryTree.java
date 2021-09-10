@@ -1,10 +1,6 @@
 package cn.meow.tree.minimumDepthBinaryTree;
 
 import cn.meow.tree.been.TreeNode;
-import javafx.scene.transform.Rotate;
-
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class MinimumDepthBinaryTree {
 
