@@ -40,6 +40,7 @@ public class ShortestPathBinaryMatrix {
                     return count;
                 }
                 //标记去过的位置为1
+                //因为我们要找的是最短路径，那么如果在此之前某个点已经在visited中，也就是说有其他路径在小于或等于当前步数的情况下，到达过这个点，证明到达这个点的最短路径已经被找到
                 grid[i][j] = 1;
                 for (int[] d : direction) {
                     int nr = i + d[0];
