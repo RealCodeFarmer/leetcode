@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * 结果有误
- */
 public class CombinationSum {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         if (candidates == null) {
@@ -27,10 +24,10 @@ public class CombinationSum {
             return;
         }
         for (int i = begin; i < candidates.length; i++) {
+            //处理节点
             if (candidates[i] > target) {
                 continue;
             }
-            //处理节点
             permuteList.add(candidates[i]);
             //递归
             backtracking(i, candidates, permuteList, result, target - candidates[i]);
